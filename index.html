@@ -21,6 +21,24 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/fontello/css/fontello.css" rel="stylesheet" >
 
+    <style>
+      html {
+        /* This image will be displayed fullscreen */
+        background:url('img/gorila.jpg') no-repeat center center;
+
+        /* Ensure the html element always takes up the full height of the browser window */
+        min-height:100%;
+
+        /* The Magic */
+        background-size:cover;
+      }
+
+      body{
+      	/* Workaround for some mobile browsers */
+      	min-height:100%;
+      }
+    </style>
+
     <!--[if lt IE 9]>
       <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>

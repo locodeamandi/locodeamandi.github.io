@@ -38,7 +38,7 @@
 .cat-img {top:0;}
 .cmn-toggle-switch {right:35px;}
 
-}	
+}
 
 /* Mobile Landscape */
 @media (max-width: 767px) {
@@ -60,6 +60,9 @@
 #top_header{padding-bottom:5px; width:100%;}
 #top_line{ display:none;}
 header{padding: 0;}
+
+/* Hide elements */
+#intro_page, #marketing_asturias {display:none;}
 
 /* Margin tools */
 .margin_60 {padding-top:30px; padding-bottom:30px;}
@@ -184,7 +187,7 @@ ul#top_tools{ margin:0 25px 0 0;}
     padding: 30px;
 	height:auto;
 }
-.box_cat_wp{height:208px;}		
+.box_cat_wp{height:208px;}
 .box_cat {height:198px;}
 .cat-img {height:200px;}
 .cat-hover .cat-overlay {bottom:-162px;height:196px;}

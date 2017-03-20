@@ -109,21 +109,19 @@ a.button_intro, .button_intro  {
 	text-transform:uppercase;
 	font-weight:bold;
 	min-width:150px;
+	box-shadow: 2px 2px 8px #000000;
 }
-a.button_intro:hover, .button_intro:hover {
-	background: #fff;
-	color:#86b535 !important;
-}
-a.button_intro.outilne, .button_intro.outline  {
+
+a.button_intro.outline, .button_intro.outline  {
 	border: 2px solid #fff;
 	color:#fff;
 	background: none;
 	padding: 6px 23px;
-}
-a.button_intro:hover, .button_intro:hover {
 	background: #fff;
-	color:#e04f67;
+	color:#86b535 !important;
+	box-shadow: 2px 2px 8px #000000;
 }
+
 
 a.btn_1, .btn_1{
 	border: none;
